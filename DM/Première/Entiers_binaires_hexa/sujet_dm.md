@@ -73,6 +73,7 @@ La fin du sujet correspondra à de l'avance sur le programme avec les notions d'
 
 Il existe plusieurs méthodes pour pouvoir avoir la représentation des nombres négatifs en binaire.
 
+
 ### Bit de poids fort
 
 Il existe une méthode qui permet de définir ce qu'est un entier positif ou négatif **sur un nombre de bits donnés**.
