@@ -6,7 +6,10 @@ Le rendu contiendra :
 - Un fichier `courbe_clef.png` pour les mesures de temps de l'algorithme d'anagramme avec une clef.
 - Une fichier `courbe_dico.png` pour les mesures de temps de l'algorithme d'anagramme avec un dictionnaire.
 
-  
+**Installation des modules**  
+Voici les commandes si jamais vous avez une erreur suite à l'importation des modules :  
+`pip3 install <nom_du_module>`
+
 **Tout rendu après le lundi 8 janvier 2024 à 00:00 ne sera pas pris en compte.**  
 **La date de l'envoi du mail faisant foi, n'hésitez pas à rajouter un accusé de réception.**  
 <br>
