@@ -1,4 +1,9 @@
-Modalités de rendu : ***DM OBLIGATOIRE***  
+# précisions et remarques sur le sujet :
+
+- Dans la fonction mesures, on appelle `anagramme_1`. Cette fonction correspond à l'anagramme avec la clef.
+
+
+## Modalités de rendu : ***DM OBLIGATOIRE***  
 Ce DM sera à rendre pour le dimanche 7 janvier 2024 à 23:59 par mail à **clement.braun.etu@univ-lille.fr**.
 
 Le rendu contiendra : 
@@ -18,7 +23,3 @@ Ce DM étant obligatoire, il en suit les règles suivantes :
 - Si le DM est rendu avec un retard avec un justificatif médical attestant que vous n'étiez pas en forme pour le faire, il n'y aura pas de malus. (repas de famille ou indigestion de gâteau ne seront pas des excuses valables).
 
 Malgré cela, bonnes fêtes de fin d'année !
-
-précisions et remarques sur le sujet :
-
-- Dans la fonction mesures, on appelle `anagramme_1`. Cette fonction correspond à l'anagramme avec la clef.
