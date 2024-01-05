@@ -1,7 +1,7 @@
 # précisions et remarques sur le sujet :
 
 - Dans la fonction mesures, on appelle `anagramme_1`. Cette fonction correspond à l'anagramme avec la clef.
-
+- l'import de matplotlib doit etre fait de cette manière `matplotlib.pyplot as plt`
 
 ## Modalités de rendu : ***DM OBLIGATOIRE***  
 Ce DM sera à rendre pour le dimanche 7 janvier 2024 à 23:59 par mail à **clement.braun.etu@univ-lille.fr**.
