@@ -1,5 +1,5 @@
 # Modalités de rendu : ***DM OBLIGATOIRE***  
-Ce DM sera à rendre pour le mardi 13 mars 2024 à 23:59 par mail à **clement.braun.etu@univ-lille.fr**.
+Ce DM sera à rendre pour le mardi 12 mars 2024 à 23:59 par mail à **clement.braun.etu@univ-lille.fr**.
 
 Le rendu contiendra : 
 - Le fichier python avec pour nom : `nom_prenom.py`
