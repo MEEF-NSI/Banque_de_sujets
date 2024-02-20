@@ -51,6 +51,9 @@ Cette boucle de jeu sera conçue par une fonction `jouer` qui sera complétée p
 ##########################################
 ```
 
+<br>
+<br>
+
 7. Créer la fonction `afficher_gagnant` et qui réalise l'affichage suivant :  
 
 ```text
