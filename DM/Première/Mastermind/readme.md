@@ -13,7 +13,7 @@ Voici les commandes si jamais vous avez une erreur suite à l'importation du mod
 
 Ce DM étant obligatoire, il en suit les règles suivantes :  
 
-- Si le DM n'est pas rendu dans un délai d'une semaine, cela correspondra à un 0/20 dans la moyenne.
+- Si le DM n'est pas rendu dans un délai d'une semaine à compter de la date de rendu, cela correspondra à un 0/20 dans la moyenne.
   
 - Si le DM est rendu avec un retard, la note sera retranchée de 3 points.
 
