@@ -3,6 +3,12 @@ Ce DM sera à rendre pour le mardi 12 mars 2024 à 23:59 par mail à **clement.b
 
 Le rendu contiendra : 
 - Le fichier python avec pour nom : `nom_prenom.py`
+- 
+La notation sera sur deux axes :
+* Les bonnes pratiques, la spécification des fonctions et l'organisation du code seront sur 4 points.
+* Les fonctions et respect des affichages seront notées sur 16 points.
+
+Il est possible de faire d'envoyer le projet avant la date de rendu et il sera possible de demander de l'aide dans la mesure du raisonnable.
 
 **Installation des modules**  
 Voici les commandes si jamais vous avez une erreur suite à l'importation du module random :  
