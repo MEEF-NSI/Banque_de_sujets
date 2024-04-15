@@ -8,7 +8,7 @@ La compléxité d'un algorithme peut être associé à une fonction de compléxi
 
 ***constante, linéaire, semi-linéaire, logarithmique, quadratique, exponentielle***.
 
-*Exemple : pour le tri par insertion d'une liste de taille $n$, la complexité de l'algorithme correspond environ au nombre d'échange de valeurs et du nombre de parcours de la liste qui sont répétés au maximum $n²$. On écrit que $C_{tri~par~insertion} = O(n²)$*.
+*Exemple : pour le tri par insertion d'une liste de taille $n$, la complexité de l'algorithme correspond environ au nombre d'échange de valeurs et du nombre de parcours de la liste qui sont répétés au maximum $n²$. On écrit que* $C_{tri~par~insertion} = O(n²)$.
 
 ![courbes_tris](courbes.png)
 
