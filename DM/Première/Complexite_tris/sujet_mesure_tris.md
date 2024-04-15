@@ -8,7 +8,7 @@ La compléxité d'un algorithme peut être associé à une fonction de compléxi
 
 ***constante, linéaire, semi-linéaire, logarithmique, quadratique, exponentielle***.
 
-*Exemple : pour la recherche d'une valeur dans une liste triée en utilisant le principe de dichotomie, la complexité est de l'ordre $O(log_2(n))$.
+*Exemple : pour la recherche d'une valeur dans une liste triée en utilisant le principe de dichotomie, la complexité est de l'ordre $O(log_2(n))$.*
 
 ![courbes_tris](courbes.png)
 
