@@ -14,8 +14,9 @@ La compléxité d'un algorithme peut être associé à une fonction de compléxi
 
 Cette activité permettra de savoir retrouver la complexité d'un algorithme via son temps d'exécution ou du nombre d'opérations élémentaires.
 
-**Vous disposez pour ce faire, un fichier mesure_tri.py et un fichier ap_decorators.py. 
-Le fichier mesure_tri.py sera votre fichier de rendu contenant chacune des fonctions à rédigier ou à compléter. Le fichier ap_decorators.py quant à lui contient divers modules A NE PAS MODIFIER, permettant de compter certaines opérations.**
+**Vous disposez pour ce faire, un fichier `mesure_tri.py` et un fichier `ap_decorators.py`.  
+Le fichier `mesure_tri.py` sera votre fichier de rendu contenant chacune des fonctions à rédigier ou à compléter.  
+Le fichier `ap_decorators.py` quant à lui contient divers modules A NE PAS MODIFIER, permettant de compter certaines opérations.**
 
 ### Fonction de comparaison
 
@@ -23,6 +24,19 @@ Cette activité aura pour but de mesurer le nombre d'opérations élémentaires 
 Ce nombre de comparaison doit pouvoir être mesuré de manière efficace. Pour cela, on doit se munir d'une fonction de comparaison.
 
 * Écrire une fonction `comparer` qui prend en paramètre deux entiers *a* et *b* et renvoie -1 si *a* < *b*, 1 si *a* > *b* ou 0 si *a* = *b*.
+
+Exemple d'utilisation:
+
+```python
+>>> comparer(1,2) 
+-1
+>>> comparer(2,1)
+1
+>>> comparer(2,2)
+0
+```
+
+Il ne faudra donc pas réaliser de comparaisons directement entre les éléments, mais utiliser la fonction de comparaisons à chaque fois que necessaire. Il faudra donc bien prendre en compte la valeur retournée de l'appel de la fonction de comparaison.
 
 
 ### Implémentation du Tri par sélection
@@ -48,15 +62,14 @@ import random
 import timeit
 import matplotlib.pyplot as plt
 
-def mesure_tri_selection_temps(n)
+def mesure_tri_selection_temps(n):
     # On initialise un tableau qui servira à récolter nos temps d'exécutions
     tab_mesure = []
     for i in range(n):
         '''On créée une liste de nombre aléatoires de taille i qui variera 
         jusqu'à la taille demandée en paramètre.
         '''
-        liste_aleatoire = [[random.randint(0,500) for _ in range(j)] 
-                            for j in range(n)]
+        liste_aleatoire = [random.randint(0,500) for _ in range(i)]
         # On prend un temps de départ
         s_time = timeit.default_timer()
         # On trie la liste créée
@@ -116,15 +129,14 @@ nombre_comparaisons = comparer.counter
 
 ```python
 
-def mesure_tri_selection_comparaisons(n)
+def mesure_tri_selection_comparaisons(n):
     # On initialise un tableau qui servira à récolter nos temps d'exécutions
     tab_mesure = []
     for i in range(n):
         '''On créée une liste de nombre aléatoires de taille i qui variera 
         jusqu'à la taille demandée en paramètre.
         '''
-        liste_aleatoire = [[random.randint(0,500) for _ in range(j)] 
-                            for j in range(n)]
+        liste_aleatoire = [random.randint(0,500) for _ in range(i)]
         # On initialise le compteur à 0
         ...
         # On trie la liste créée
@@ -179,6 +191,6 @@ On distingue plusieurs cas pour le tri par insertion :
 - Le pire cas : les éléments sont triés dans le sens contraire de celui dans lequel on souhaite trier (exemple : valeurs dans l'ordre décroissant et on cherche à trier dans l'ordre croissant).
 
 Il faut donc évaluer les complexités des divers cas de ce tri et cela est possible grâce à l'activité précédente portant sur le tri par selection.
-**Cette activité ne sera pas guidée : En vous aidant de l'activité précédente, reprendre chacune des questions de l'étude du tri par selection mais les appliquer au tri par insertion et donner une courbe par cas étudié. Vous en déduirez les complexités de chacun des cas.**
+**Cette partie ne sera pas guidée : En vous aidant de l'activité précédente, reprendre chacune des questions de l'étude du tri par selection mais les appliquer au tri par insertion et donner une courbe par cas étudié. Vous en déduirez les complexités de chacun des cas.**
 
 
