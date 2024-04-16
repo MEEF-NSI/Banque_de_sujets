@@ -31,13 +31,3 @@ Ce DM étant obligatoire, il en suit les règles suivantes :
 - Si le DM n'est pas rendu dans un délai d'une semaine à compter de la date de rendu, cela correspondra à un 0/20 dans la moyenne.
   
 - Si le DM est rendu avec un retard dans un délai d'une semaine, la note sera retranchée de 3 points.
-
-**Si le projet est terminé, voici un ensemble de fonctionnalités bonus à rajouter. Ces fonctionnalités pourront vous permettre soit de prendre de l'avance pour l'année prochaine ou d'acquérir plus de conpétences :**
-
-* interface graphique avec tkinter (connaissances personnelles)
-
-* multiples occurences de couleurs dans une solution (cela te fait revoir tes vérifications + j'aimerai te voir résoudre ce soucis via l'utilisation soit de tuples ou de préférence de dictionnaires).
-
-* résolution par la machine => tu crées la configuration solution et tu la fais deviner par le PC
-
-* générer des mastermind plus ou moins difficile de manière aléatoire (des solutions sont plus ou moins faciles à trouver)
