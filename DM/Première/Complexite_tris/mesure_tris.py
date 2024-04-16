@@ -61,11 +61,11 @@ def mesure_tri_selection_comparaisons(n):
 
 ############################################### PARTIE 2 ###############################################
 
-def inserer(l,i, comp = comparer):
+def inserer(l,i):
     ...
 
 
-def tri_insertion(l,comp=comparer):
+def tri_insertion(l):
     ...
 
 def mesure_tri_insertion_temps(n):
