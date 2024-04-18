@@ -198,12 +198,39 @@ Il faut donc évaluer les complexités des divers cas de ce tri et cela est poss
 Il existe un certain nombre de tris qui n'opérent pas par comparaisons mais par d'autres moyens.
 On peut citer par exemple : le tri par dénombrement.
 
-L'implémentation de ce tri est disponible dans le fichier `tri_par_denombrement.py`.
+Voici l'implémentation du tri par dénombrement:
 
-**Donner le nombre d'opérations élémentaires du tri par dénombrement en fonction de la taille de la liste.**
+```python
+def tri_par_denombrement(liste : list) -> list:
+    '''
+    Trie la liste passée en paramètre en utilisant le principe du tri par dénombrement
+    args:
+        -liste : une liste d'entiers strictement positifs
+    returns: 
+        - une liste contenant tous les éléments de la liste d'entrée mais triée
+    '''
+    #On créée un dictionnaire d'occurences pour compter les éléments de la liste
+    occurences = {}
+    #On créée une liste vide qui contiendra nos éléments
+    liste_triee = []
+    #On compte les occurences des nombres de la liste
+    for elt in liste:
+        if elt not in occurences:
+            occurences[elt] = 1
+        else:
+            occurences[elt] = occurences[elt] + 1
 
-**Le tri choisi est-il plus efficace que le tri par selection ? le tri par insertion ? Pourquoi?**.
+    #On remplit la liste à trier d'autant de fois que celle-ci a été comptée
+    for valeur in occurences:
+        liste_triee = liste_triee + [valeur*occurence[valeur]]
 
-**Pourquoi ce tri n'est généralement pas utilisé?**
+    return liste_triee
+```
+
+1- Donner le nombre d'opérations élémentaires du tri par dénombrement en fonction de la taille de la liste.
+
+2- Le tri choisi est-il plus efficace que le tri par selection ? le tri par insertion ? Pourquoi?
+
+3- Pourquoi ce tri n'est généralement pas utilisé?
 
 
