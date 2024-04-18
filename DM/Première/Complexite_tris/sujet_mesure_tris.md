@@ -211,10 +211,15 @@ def tri_par_denombrement(liste : list) -> list:
     returns: 
         - une liste contenant tous les éléments de la liste d'entrée mais triée
     '''
-    #On créée un dictionnaire d'occurences pour compter les éléments de la liste
-    occurences = {}
+    #On récupère le nombre maximum de la liste d'entiers
+    maxi = max(liste)
+
+    #On créée une liste de taille le nombre maximum de la liste + 1
+    occurences = [0]*(maxi+1)
+
     #On créée une liste vide qui contiendra nos éléments
     liste_triee = []
+
     #On compte les occurences des nombres de la liste
     for elt in liste:
         if elt not in occurences:
@@ -224,7 +229,8 @@ def tri_par_denombrement(liste : list) -> list:
 
     #On remplit la liste à trier d'autant de fois que celle-ci a été comptée
     for valeur in occurences:
-        liste_triee = liste_triee + [valeur*occurence[valeur]]
+        occurence = occurences[valeur]
+        liste_triee = liste_triee + [valeur]*occurences
 
     return liste_triee
 ```
