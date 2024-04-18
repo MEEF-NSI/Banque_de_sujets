@@ -193,4 +193,17 @@ On distingue plusieurs cas pour le tri par insertion :
 Il faut donc évaluer les complexités des divers cas de ce tri et cela est possible grâce à l'activité précédente portant sur le tri par selection.
 **Cette partie ne sera pas guidée : En vous aidant de l'activité précédente, reprendre chacune des questions de l'étude du tri par selection mais les appliquer au tri par insertion et donner une courbe par cas étudié. Vous en déduirez les complexités de chacun des cas.**
 
+## Bonus : Les tris sans comparaisons
+
+Il existe un certain nombre de tris qui n'opérent pas par comparaisons mais par d'autres moyens.
+On peut citer par exemple : le tri par dénombrement.
+
+L'implémentation de ce tri est disponible dans le fichier `tri_par_denombrement.py`.
+
+**Donner le nombre d'opérations élémentaires du tri par dénombrement en fonction de la taille de la liste.**
+
+**Le tri choisi est-il plus efficace que le tri par selection ? le tri par insertion ? Pourquoi?**.
+
+**Pourquoi ce tri n'est généralement pas utilisé?**
+
 
