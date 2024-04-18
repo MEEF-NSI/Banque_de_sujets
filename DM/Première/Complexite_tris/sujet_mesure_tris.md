@@ -198,6 +198,8 @@ Il faut donc évaluer les complexités des divers cas de ce tri et cela est poss
 Il existe un certain nombre de tris qui n'opérent pas par comparaisons mais par d'autres moyens.
 On peut citer par exemple : le tri par dénombrement.
 
+L'explication du fonctionnement du tri est dans le fichier `fonctionnement_tri_denombrement.pdf`.
+
 Voici l'implémentation du tri par dénombrement:
 
 ```python
