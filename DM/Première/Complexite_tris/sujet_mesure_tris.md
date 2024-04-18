@@ -230,7 +230,7 @@ def tri_par_denombrement(liste : list) -> list:
     #On remplit la liste à trier d'autant de fois que celle-ci a été comptée
     for valeur in occurences:
         occurence = occurences[valeur]
-        liste_triee = liste_triee + [valeur]*occurences
+        liste_triee = liste_triee + [valeur]*occurence
 
     return liste_triee
 ```
