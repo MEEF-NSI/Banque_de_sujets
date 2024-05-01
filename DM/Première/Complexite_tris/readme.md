@@ -23,6 +23,7 @@ Il est possible de faire d'envoyer le projet avant la date de rendu et il sera p
 Voici les commandes si jamais vous avez une erreur suite à l'importation du module random :  
 `pip3 install <nom_du_module>`
 
+Pour ceux utilisant Thonny, vous ne devez pas oublier en plus de rajouter le module matplotlib dans ceux installés dans la rubrique Outils (ou Tools) / gestionnaire de paquets !
 **La date de l'envoi du mail faisant foi, n'hésitez pas à rajouter un accusé de réception.**
 <br>
 
